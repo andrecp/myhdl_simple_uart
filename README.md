@@ -1,11 +1,12 @@
-myhdl_simple_uart
-=================
+<h1>myhdl_simple_uart </h1>
 
-A very simple UART implementation in MyHDL
+<h2>A very simple UART implementation in MyHDL</h2>
 
-The project has three files:
+<p> This projects implements a simple UART in MyHDL and generates the VHDL files. It has been tested in a DE2-115 and has worked </p>
 
-baudrate_gen.py - generates the baudrate
-serial_rx.py - recieves info from RX
-serial_tx.py - sends info to TX
-
+<p>The project has three files:</p>
+<ul>
+<li>baudrate_gen.py - generates the baudrate</li>
+<li>serial_rx.py - recieves info from RX</li>
+<li>serial_tx.py - sends info to TX</li>
+</ul>
