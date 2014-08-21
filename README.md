@@ -10,7 +10,7 @@
 <li>baudrate_gen.py - generates the baudrate</li>
 <li>serial_rx.py - recieves info from RX</li>
 <li>serial_tx.py - sends info to TX</li>
-<li>tb_serial.py - testbench file>/li>
+<li>tb_serial.py - testbench file</li>
 </ul>
 
 <h2> Running the project </h2>
