@@ -25,7 +25,6 @@ def baudrate_gen(sysclk, reset_n, baud_rate_i, half_baud_rate_tick_o, baud_rate_
         if baud_gen_count_reg == baud_rate_i:
             baud_gen_count_reg.next = 0
             baud_rate_tick_o.next = 1 
-            half_baud_rate_tick_o.next = 1 
         if baud_gen_count_reg == half_baud_const:
             half_baud_rate_tick_o.next = 1 
     
